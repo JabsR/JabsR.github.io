@@ -57,7 +57,7 @@
    <form id="myForm" onsubmit="nextPage(this)"> <input type="text" name="phone" placeholder="Enter value">
     <input type="submit" value="Submit"> </form>
  <script>
-  function nextPage(form) { var value = form.elements.namedItem("myValue").value;	window.location.replace('api.whatsapp.com/send' + "?phone=" + value); return false; }
+  function nextPage(form) { var value = form.elements.namedItem("myValue").value;	window.location.replace("api.whatsapp.com/send?phone=" + value); return false; }
  </script>
  
  
